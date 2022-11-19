@@ -1,0 +1,17 @@
+NO ./texture/grass.xpm
+SO ./texture/lavaf2.xpm
+WE ./texture/mud.xpm
+EA ./texture/woolsnow.xpm
+
+F 220,100,0
+C 225,30,0
+
+111111111
+100110001
+100000001
+1000N0001
+100000001
+100010001
+100100001
+100000001
+111111111

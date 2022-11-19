@@ -1,0 +1,177 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+$(NAME)	Makefile	/^$(NAME) : $(OBJ)$/;"	t
+${NAME}	source/share/libft/Makefile	/^${NAME}: ${OBJ}$/;"	t
+%.o	Makefile	/^%.o: %.c$/;"	t
+%.o	source/share/libft/Makefile	/^%.o: %.c$/;"	t
+BONUS	source/share/libft/Makefile	/^BONUS = ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c ft_lstiter.c ft_lstlast./;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CC	source/share/libft/Makefile	/^CC  = gcc$/;"	m
+CFLAG	Makefile	/^CFLAG = -Werror -Wall -Wextra -Ofast -flto -g3 -D BUFFER_SIZE=4096$/;"	m
+CUB3D_H	include/cub3d.h	/^# define CUB3D_H$/;"	d
+DD	Makefile	/^DD = 1$/;"	m
+DEPS	Makefile	/^DEPS = ${SRC:%.c=%.d}$/;"	m
+FLAG	source/share/libft/Makefile	/^FLAG = -Wall -Werror -Wextra -g3$/;"	m
+GET_NEXT_LINE_BONUS_H	source/share/gnl/get_next_line_bonus.h	/^# define GET_NEXT_LINE_BONUS_H$/;"	d
+GET_NEXT_LINE_H	source/share/gnl/get_next_line.h	/^# define GET_NEXT_LINE_H$/;"	d
+INC	Makefile	/^INC = -I .\/include$/;"	m
+LIB	Makefile	/^LIB = .\/source\/share\/libft\/libft.a$/;"	m
+LIBFT_H	include/libft.h	/^# define LIBFT_H$/;"	d
+LIBFT_H	source/share/libft/libft.h	/^# define LIBFT_H$/;"	d
+MAKE_LIBFT	Makefile	/^MAKE_LIBFT:$/;"	t
+NAME	Makefile	/^NAME = cub3d$/;"	m
+NAME	source/share/libft/Makefile	/^NAME = libft.a$/;"	m
+OBJ	Makefile	/^OBJ = ${SRC:%.c=%.o}$/;"	m
+OBJ	source/share/libft/Makefile	/^OBJ = ${SRC:.c=.o}$/;"	m
+OBJ_BONUS	source/share/libft/Makefile	/^OBJ_BONUS = ${BONUS:.c=.o}$/;"	m
+PATH_LIBFT	Makefile	/^PATH_LIBFT = .\/source\/share\/libft\/$/;"	m
+RM	source/share/libft/Makefile	/^RM  = rm -f$/;"	m
+SRC	Makefile	/^SRC =	.\/source\/main\/main.c \\$/;"	m
+SRC	source/share/libft/Makefile	/^SRC = ft_atoi.c ft_bzero.c ft_calloc.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_is/;"	m
+all	Makefile	/^all: MAKE_LIBFT $(NAME)$/;"	t
+all	source/share/libft/Makefile	/^all: ${NAME}$/;"	t
+bonus	source/share/libft/Makefile	/^bonus: ${OBJ_BONUS}$/;"	t
+check_line_empty	source/parsing/parsing_utils.c	/^int	check_line_empty(char *line)$/;"	f	typeref:typename:int
+clean	Makefile	/^clean:$/;"	t
+clean	source/share/libft/Makefile	/^clean:$/;"	t
+content	include/libft.h	/^	void			*content;$/;"	m	struct:s_list	typeref:typename:void *
+content	source/share/libft/libft.h	/^	void			*content;$/;"	m	struct:s_list	typeref:typename:void *
+delete_garbange_collector	source/share/libft/garbange_collector.c	/^void	delete_garbange_collector(void)$/;"	f	typeref:typename:void
+east_texture	include/cub3d.h	/^	char	*east_texture;$/;"	m	struct:s_elem	typeref:typename:char *
+elem	include/cub3d.h	/^	t_elem	elem;$/;"	m	struct:s_global	typeref:typename:t_elem
+elem	include/libft.h	/^	void	*elem;$/;"	m	struct:s_gc	typeref:typename:void *
+elem	source/share/libft/libft.h	/^	void	*elem;$/;"	m	struct:s_gc	typeref:typename:void *
+fclean	Makefile	/^fclean : clean$/;"	t
+fclean	source/share/libft/Makefile	/^fclean: clean$/;"	t
+fd	include/cub3d.h	/^	int		fd;$/;"	m	struct:s_map	typeref:typename:int
+fd	include/cub3d.h	/^	int		fd;$/;"	m	struct:s_parse	typeref:typename:int
+ft_atoi	source/share/libft/ft_atoi.c	/^int	ft_atoi(const char *nptr)$/;"	f	typeref:typename:int
+ft_bzero	source/share/libft/ft_bzero.c	/^void	ft_bzero(void *s, size_t n)$/;"	f	typeref:typename:void
+ft_calloc	source/share/libft/ft_calloc.c	/^void	*ft_calloc(size_t nmemb, size_t size)$/;"	f	typeref:typename:void *
+ft_cntword	source/share/libft/ft_split.c	/^int	ft_cntword(char const *s, char c, int n)$/;"	f	typeref:typename:int
+ft_exist_file	source/parsing/parsing_element.c	/^int	ft_exist_file(char *path_file)$/;"	f	typeref:typename:int
+ft_exit	source/share/libft/garbange_collector.c	/^void	ft_exit(int status)$/;"	f	typeref:typename:void
+ft_free	source/share/libft/ft_free.c	/^void	*ft_free(void *elem)$/;"	f	typeref:typename:void *
+ft_free_tabs	source/share/libft/ft_free.c	/^void	*ft_free_tabs(char **tabs)$/;"	f	typeref:typename:void *
+ft_get_cache	source/parsing/get_next_line_utils.c	/^char	*ft_get_cache(char *cache)$/;"	f	typeref:typename:char *
+ft_get_cache	source/share/gnl/get_next_line_utils_bonus.c	/^char	*ft_get_cache(char *cache)$/;"	f	typeref:typename:char *
+ft_get_line	source/parsing/get_next_line_utils.c	/^char	*ft_get_line(char *cache)$/;"	f	typeref:typename:char *
+ft_get_line	source/share/gnl/get_next_line_utils_bonus.c	/^char	*ft_get_line(char *cache)$/;"	f	typeref:typename:char *
+ft_intlen	source/share/libft/ft_itoa.c	/^int	ft_intlen(long n, long l)$/;"	f	typeref:typename:int
+ft_isalnum	source/share/libft/ft_isalnum.c	/^int	ft_isalnum(int c)$/;"	f	typeref:typename:int
+ft_isalpha	source/share/libft/ft_isalpha.c	/^int	ft_isalpha(int c)$/;"	f	typeref:typename:int
+ft_isascii	source/share/libft/ft_isascii.c	/^int	ft_isascii(int c)$/;"	f	typeref:typename:int
+ft_isdigit	source/share/libft/ft_isdigit.c	/^int	ft_isdigit(int c)$/;"	f	typeref:typename:int
+ft_isprint	source/share/libft/ft_isprint.c	/^int	ft_isprint(int c)$/;"	f	typeref:typename:int
+ft_itoa	source/share/libft/ft_itoa.c	/^char	*ft_itoa(int n)$/;"	f	typeref:typename:char *
+ft_lstadd_back	source/share/libft/ft_lstadd_back.c	/^void	ft_lstadd_back(t_list **alst, t_list *new)$/;"	f	typeref:typename:void
+ft_lstadd_front	source/share/libft/ft_lstadd_front.c	/^void	ft_lstadd_front(t_list **alst, t_list *new)$/;"	f	typeref:typename:void
+ft_lstclear	source/share/libft/ft_lstclear.c	/^void	ft_lstclear(t_list **lst, void (*del)(void *))$/;"	f	typeref:typename:void
+ft_lstdelone	source/share/libft/ft_lstdelone.c	/^void	ft_lstdelone(t_list *lst, void (*del)(void *))$/;"	f	typeref:typename:void
+ft_lstiter	source/share/libft/ft_lstiter.c	/^void	ft_lstiter(t_list *lst, void (*f)(void *))$/;"	f	typeref:typename:void
+ft_lstlast	source/share/libft/ft_lstlast.c	/^t_list	*ft_lstlast(t_list *lst)$/;"	f	typeref:typename:t_list *
+ft_lstmap	source/share/libft/ft_lstmap.c	/^t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))$/;"	f	typeref:typename:t_list *
+ft_lstnew	source/share/libft/ft_lstnew.c	/^t_list	*ft_lstnew(void *content)$/;"	f	typeref:typename:t_list *
+ft_lstsize	source/share/libft/ft_lstsize.c	/^int	ft_lstsize(t_list *lst)$/;"	f	typeref:typename:int
+ft_malloc	source/share/libft/ft_malloc.c	/^void	*ft_malloc(size_t size, size_t nbr)$/;"	f	typeref:typename:void *
+ft_memchr	source/share/libft/ft_memchr.c	/^void	*ft_memchr(const void *s, int c, size_t n)$/;"	f	typeref:typename:void *
+ft_memcmp	source/share/libft/ft_memcmp.c	/^int	ft_memcmp(const void *s1, const void *s2, size_t n)$/;"	f	typeref:typename:int
+ft_memcpy	source/share/libft/ft_memcpy.c	/^void	*ft_memcpy(void *dest, const void *src, size_t n)$/;"	f	typeref:typename:void *
+ft_memmove	source/share/libft/ft_memmove.c	/^void	*ft_memmove(void *dest, const void *src, size_t n)$/;"	f	typeref:typename:void *
+ft_memset	source/share/libft/ft_memset.c	/^void	*ft_memset(void *s, int c, size_t n)$/;"	f	typeref:typename:void *
+ft_print_garbange_collectore	source/share/libft/garbange_collector.c	/^void	ft_print_garbange_collectore(void)$/;"	f	typeref:typename:void
+ft_putchar_fd	source/share/libft/ft_putchar_fd.c	/^void	ft_putchar_fd(char c, int fd)$/;"	f	typeref:typename:void
+ft_putendl_fd	source/share/libft/ft_putendl_fd.c	/^void	ft_putendl_fd(char *s, int fd)$/;"	f	typeref:typename:void
+ft_putnbr_fd	source/share/libft/ft_putnbr_fd.c	/^void	ft_putnbr_fd(int n, int fd)$/;"	f	typeref:typename:void
+ft_putstr_fd	source/share/libft/ft_putstr_fd.c	/^void	ft_putstr_fd(char *s, int fd)$/;"	f	typeref:typename:void
+ft_read	source/parsing/get_next_line.c	/^char	*ft_read(int fd, char *cache, long reader)$/;"	f	typeref:typename:char *
+ft_skip_withspace	source/share/libft/ft_strchr.c	/^char	*ft_skip_withspace(char *str)$/;"	f	typeref:typename:char *
+ft_split	source/share/libft/ft_split.c	/^char	**ft_split(char const *s, char c)$/;"	f	typeref:typename:char **
+ft_str_isdigit	source/share/libft/ft_isdigit.c	/^int	ft_str_isdigit(char *str)$/;"	f	typeref:typename:int
+ft_strchr	source/share/gnl/get_next_line_utils_bonus.c	/^char	*ft_strchr(const char *s, int c)$/;"	f	typeref:typename:char *
+ft_strchr	source/share/libft/ft_strchr.c	/^char	*ft_strchr(const char *s, int c)$/;"	f	typeref:typename:char *
+ft_strchr_and_replace	source/share/libft/ft_strchr.c	/^char	*ft_strchr_and_replace(char *str, int c, int n)$/;"	f	typeref:typename:char *
+ft_strdup	source/share/libft/ft_strdup.c	/^char	*ft_strdup(const char *s1)$/;"	f	typeref:typename:char *
+ft_striteri	source/share/libft/ft_striteri.c	/^void	ft_striteri(char *s, void (*f)(unsigned int, char*))$/;"	f	typeref:typename:void
+ft_strjoin	source/share/gnl/get_next_line_utils_bonus.c	/^char	*ft_strjoin(char *s1, char const *s2)$/;"	f	typeref:typename:char *
+ft_strjoin	source/share/libft/ft_strjoin.c	/^char	*ft_strjoin(char const *s1, char const *s2)$/;"	f	typeref:typename:char *
+ft_strlcat	source/share/libft/ft_strlcat.c	/^size_t	ft_strlcat(char *dst, const char *src, size_t size)$/;"	f	typeref:typename:size_t
+ft_strlcpy	source/share/libft/ft_strlcpy.c	/^size_t	ft_strlcpy(char *dst, const char *src, size_t size)$/;"	f	typeref:typename:size_t
+ft_strlen	source/share/gnl/get_next_line_utils_bonus.c	/^size_t	ft_strlen(const char *s)$/;"	f	typeref:typename:size_t
+ft_strlen	source/share/libft/ft_strlen.c	/^size_t	ft_strlen(const char *s)$/;"	f	typeref:typename:size_t
+ft_strmapi	source/share/libft/ft_strmapi.c	/^char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))$/;"	f	typeref:typename:char *
+ft_strncmp	source/share/libft/ft_strncmp.c	/^int	ft_strncmp(const char *s1, const char *s2, size_t n)$/;"	f	typeref:typename:int
+ft_strnstr	source/share/libft/ft_strnstr.c	/^char	*ft_strnstr(const char *big, const char *little, size_t len)$/;"	f	typeref:typename:char *
+ft_strrchr	source/share/libft/ft_strrchr.c	/^char	*ft_strrchr(const char *s, int c)$/;"	f	typeref:typename:char *
+ft_strtrim	source/share/libft/ft_strtrim.c	/^char	*ft_strtrim(char const *s1, char const *set)$/;"	f	typeref:typename:char *
+ft_substr	source/share/libft/ft_substr.c	/^char	*ft_substr(char const *s, unsigned int start, size_t len)$/;"	f	typeref:typename:char *
+ft_tolower	source/share/libft/ft_tolower.c	/^int	ft_tolower(int c)$/;"	f	typeref:typename:int
+ft_toupper	source/share/libft/ft_toupper.c	/^int	ft_toupper(int c)$/;"	f	typeref:typename:int
+gc	include/cub3d.h	/^	t_gc	*gc;$/;"	m	struct:s_map	typeref:typename:t_gc *
+get_garbange_collector	source/share/libft/garbange_collector.c	/^t_gc	*get_garbange_collector(void)$/;"	f	typeref:typename:t_gc *
+get_gc	source/main/main.c	/^t_gc	*get_gc(void)$/;"	f	typeref:typename:t_gc *
+get_next_line	source/parsing/get_next_line.c	/^char	*get_next_line(int fd)$/;"	f	typeref:typename:char *
+get_struct	test.c	/^t_test	*get_struct(void)$/;"	f	typeref:typename:t_test *
+init_struct_element	source/parsing/parsing_element.c	/^int	init_struct_element(t_elem *elem, t_map *map)$/;"	f	typeref:typename:int
+init_struct_map	source/parsing/parsing_map.c	/^int	init_struct_map(t_map *map)$/;"	f	typeref:typename:int
+init_stuct_global	source/main/main.c	/^int	init_stuct_global(t_global *g, char **av)$/;"	f	typeref:typename:int
+len_line	include/cub3d.h	/^	int		len_line;$/;"	m	struct:s_parse	typeref:typename:int
+len_map	include/cub3d.h	/^	int		len_map;$/;"	m	struct:s_map	typeref:typename:int
+len_map	include/cub3d.h	/^	int		len_map;$/;"	m	struct:s_parse	typeref:typename:int
+line_one	source/parsing/parse_map.c	/^char	*line_one(char *str)$/;"	f	typeref:typename:char *
+line_other	source/parsing/parse_map.c	/^char	*line_other(char *str)$/;"	f	typeref:typename:char *
+main	source/main/main.c	/^int	main(int ac, char **av, char **envp)$/;"	f	typeref:typename:int
+main	test.c	/^int	main(void)$/;"	f	typeref:typename:int
+map	include/cub3d.h	/^	char	**map;$/;"	m	struct:s_map	typeref:typename:char **
+map	include/cub3d.h	/^	char	**map;$/;"	m	struct:s_parse	typeref:typename:char **
+map	include/cub3d.h	/^	t_map	map;$/;"	m	struct:s_global	typeref:typename:t_map
+map_parse	include/cub3d.h	/^	char	*map_parse;$/;"	m	struct:s_parse	typeref:typename:char *
+ndr	test.c	/^	int		ndr;$/;"	m	struct:s_test	typeref:typename:int	file:
+new_garbange_collector	source/share/libft/garbange_collector.c	/^t_gc	*new_garbange_collector(void *elem)$/;"	f	typeref:typename:t_gc *
+next	include/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list *
+next	include/libft.h	/^	void	*next;$/;"	m	struct:s_gc	typeref:typename:void *
+next	source/share/libft/libft.h	/^	struct s_list	*next;$/;"	m	struct:s_list	typeref:struct:s_list *
+next	source/share/libft/libft.h	/^	void	*next;$/;"	m	struct:s_gc	typeref:typename:void *
+north_texture	include/cub3d.h	/^	char	*north_texture;$/;"	m	struct:s_elem	typeref:typename:char *
+open_file	source/parsing/parsing_utils.c	/^int	open_file(char	*file)$/;"	f	typeref:typename:int
+parse_line_by_line	source/parsing/parsing_map.c	/^int	parse_line_by_line(char *line, int flag)$/;"	f	typeref:typename:int
+parse_line_element	source/parsing/parsing_element.c	/^int	parse_line_element(char	*line, t_elem *elem)$/;"	f	typeref:typename:int
+parse_map	source/parsing/parsing_map.c	/^int	parse_map(char **map)$/;"	f	typeref:typename:int
+parse_map_utlis	source/parsing/parsing_map.c	/^int	parse_map_utlis(char **map, int x, int y, int *joueur)$/;"	f	typeref:typename:int
+print_map	source/parsing/parsing_utils.c	/^void	print_map(char **map)$/;"	f	typeref:typename:void
+prt	test.c	/^	char	*prt;$/;"	m	struct:s_test	typeref:typename:char *	file:
+re	Makefile	/^re: fclean$/;"	t
+re	source/share/libft/Makefile	/^re: fclean all$/;"	t
+recursion	source/share/libft/ft_lstclear.c	/^static void	recursion(t_list *lst, void (*del)(void *))$/;"	f	typeref:typename:void	file:
+rgb_plafond	include/cub3d.h	/^	int		rgb_plafond[3];$/;"	m	struct:s_elem	typeref:typename:int[3]
+rgb_sol	include/cub3d.h	/^	int		rgb_sol[3];$/;"	m	struct:s_elem	typeref:typename:int[3]
+s_elem	include/cub3d.h	/^typedef struct s_elem$/;"	s
+s_gc	include/libft.h	/^typedef struct s_gc$/;"	s
+s_gc	source/share/libft/libft.h	/^typedef struct s_gc$/;"	s
+s_global	include/cub3d.h	/^typedef struct s_global$/;"	s
+s_list	include/libft.h	/^typedef struct s_list$/;"	s
+s_list	source/share/libft/libft.h	/^typedef struct s_list$/;"	s
+s_map	include/cub3d.h	/^typedef struct s_map$/;"	s
+s_parse	include/cub3d.h	/^typedef struct s_parse$/;"	s
+s_test	test.c	/^typedef struct s_test$/;"	s	file:
+set_map	source/parsing/parsing_map.c	/^char	**set_map(t_map *map_s, int line_fill, int line_empty, int check)$/;"	f	typeref:typename:char **
+set_rgb_elem	source/parsing/parsing_element.c	/^int	set_rgb_elem(char *line, t_elem *elem, int flag)$/;"	f	typeref:typename:int
+set_texture_elem	source/parsing/parsing_element.c	/^int	set_texture_elem(char *line, t_elem *elem, int flag)$/;"	f	typeref:typename:int
+skip_space	source/parsing/parse_map.c	/^char	*skip_space(char *str)$/;"	f	typeref:typename:char *
+south_texture	include/cub3d.h	/^	char	*south_texture;$/;"	m	struct:s_elem	typeref:typename:char *
+t_elem	include/cub3d.h	/^}	t_elem;$/;"	t	typeref:struct:s_elem
+t_gc	include/libft.h	/^}	t_gc;$/;"	t	typeref:struct:s_gc
+t_gc	source/share/libft/libft.h	/^}	t_gc;$/;"	t	typeref:struct:s_gc
+t_global	include/cub3d.h	/^}	t_global;$/;"	t	typeref:struct:s_global
+t_list	include/libft.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_list	source/share/libft/libft.h	/^}	t_list;$/;"	t	typeref:struct:s_list
+t_map	include/cub3d.h	/^}	t_map;$/;"	t	typeref:struct:s_map
+t_parse	include/cub3d.h	/^}	t_parse;$/;"	t	typeref:struct:s_parse
+t_test	test.c	/^}	t_test;$/;"	t	typeref:struct:s_test	file:
+tab_join	source/parsing/parsing_utils.c	/^char	**tab_join(char **tab, char *str, int size)$/;"	f	typeref:typename:char **
+west_texture	include/cub3d.h	/^	char	*west_texture;$/;"	m	struct:s_elem	typeref:typename:char *
